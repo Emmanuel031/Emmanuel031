@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>pagina principal</title>
+        <meta name="description" content="En esta pagina principal puedes crear, leer, actualizar y eliminar productos.">
+        <link rel="stylesheet" href="/CSS/pagina-principal.css">
+    </head>
+    <body>
+        <header class="encabezado">
+            <nav class="enlaces">
+                <a href="">PRODUCTOS</a>
+                <a href="">VENTAS</a>
+                <a href="">HISTORIAL DE VENTAS</a>
+            </nav>
+
+            <div class="container">
+                <p>Emmanuel Sosa</p>
+                <button type="button" onclick="alert('Bienvenido Usuario');">
+                    <!--<img src="https://iconape.com/wp-content/png_logo_vector/user-circle.png" alt="profile-user">>-->
+                    <img src="https://www.pngmart.com/files/21/Account-User-PNG.png" alt="profile-user">
+                </button>
+            </div>
+            
+        </header>
+        
+        <article class="contenido">
+            <button type="button" id="agregarFila">AÑADIR</button>
+            <form action="" method="get" class="form-search">
+                <input type="search" id="searchInput">
+            </form>
+            <table class="tabla-elementos" id="miTabla">
+                <tbody>
+                    <tr>
+                        <td>CODIGO</td>
+                        <td>MARCA</td>
+                        <td>DESCRIPCION</td>
+                        <td>CATEGORIA</td>
+                        <td>PRECIO</td>
+                        <td>CANTIDAD</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><button type="button" onclick="editarCelda(this)">EDITAR</button></td>
+                        <td><button type="button">BORRAR</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><button type="button" onclick="editarCelda(this)">EDITAR</button></td>
+                        <td><button type="button">BORRAR</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><button type="button" onclick="editarCelda(this)">EDITAR</button></td>
+                        <td><button type="button">BORRAR</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><button type="button" onclick="editarCelda(this)">EDITAR</button></td>
+                        <td><button type="button">BORRAR</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button type="button">ANTERIOR</button>
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button">SIGUIENTE</button>
+        </article>
+
+        
+    <script>
+        // Función para agregar una nueva fila a la tabla
+        function agregarFila() {
+            var tabla = document.getElementById("miTabla");
+            var fila = tabla.insertRow(tabla.rows.length);
+            var celda1 = fila.insertCell(0);
+            var celda2 = fila.insertCell(1);
+            celda1.innerHTML = "Nuevo Dato 1";
+            celda2.innerHTML = "Nuevo Dato 2";
+        }
+
+        // Asociar la función al botón
+        var botonAgregarFila = document.getElementById("agregarFila");
+        botonAgregarFila.addEventListener("click", agregarFila);
+
+
+        
+        function editarCelda(boton) {
+            var fila = boton.parentNode.parentNode;
+            var celdas = fila.getElementsByTagName("td");
+
+            for (var i = 0; i < celdas.length - 1; i++) {
+                celdas[i].setAttribute("contenteditable", "true");
+            }
+
+            boton.innerHTML = "Guardar";
+            boton.onclick = function() {
+                guardarCelda(this);
+            };
+        }
+
+        // Función para guardar la información editada en una celda
+        function guardarCelda(boton) {
+            var fila = boton.parentNode.parentNode;
+            var celdas = fila.getElementsByTagName("td");
+
+            for (var i = 0; i < celdas.length - 1; i++) {
+                celdas[i].setAttribute("contenteditable", "false");
+            }
+
+            boton.innerHTML = "Editar";
+            boton.onclick = function() {
+                editarCelda(this);
+            };
+        }
+    </script>
+    </body>
+</html>
