@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.login {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 70px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 2%;
+}
+
+.form-login {
+    width: 90%;
+    position: absolute;
+    bottom: 150px;
+}
+
+.form-login > input {
+    margin-bottom: 35px;
+}
+
+.form-login > input[type="text"],
+.form-login > input[type="password"] {
+    width: 315px;
+    height: 25px;
+}
+
+.form-login > input[type="submit"]{
+    display: block;
+    margin: 0;
+    width: 65px;
+}
