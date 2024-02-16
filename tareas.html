@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Lista de tareas</title>
+        <meta name="description" content="Una pequeña lista de tareas">
+        <link rel="stylesheet" href="tareas.css">
+    </head>
+    <body>
+        <h1 class="encabezado">ToDo App</h1>
+        <section class="seccion">
+            <form>
+                <input type="text" placeholder="Ingrese tarea" class="tareas" id="TareaNueva" required>
+                <input type="submit" value="Agregar" class="agregar" id="agregarTarea">
+            </form>
+            <ul id="lista-tareas">
+                <li class="ceroTareas">No hay tareas pendientes 😍</li>
+            </ul>
+        </section>
+
+        <script src="tareas.js"></script>
+    </body>
+</html>
