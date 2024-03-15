@@ -1,11 +1,28 @@
-- 👋 Hola, soy @Emmanuel031 y actualmente soy estudiante de desarrollo de software en Republica Dominicana, tengo 20 años. 
+# Frontend Developer 👩‍💻💻
 
-- Aun estoy aprendiendo acerca de este maravilloso mundo de la programación y desea convertirme en un buen programador.
+## Sobre mi 
 
-- Los lenguajes que actualmente se manejar son HTML,CSS,JS,Python,markdown y SQL.
+¡Hola! me llamo Emmanuel Sosa y soy un desarrollador frontend en la republica dominicana 🇩🇴, me apasiona tanto el desarrollo web
+como la programacion, soy una persona responsable y dedicada a su labor. Mi meta es satisfacer los deseos y necesidades del cliente
+de manera satisfactoria.
 
-- Tambien se un poco de Git y Flask.
-<!---
-Emmanuel031/Emmanuel031 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+---
+
+## Habilidades ⚙
+
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="html logo" width="25px" height="25px"> HTML
+* <img src="https://diziglobalsolution.com/wp-content/uploads/2023/04/logo-css-3-1536.png" width='25px' height='25px'> CSS
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png" width="25px" height="25px"> JavaScript
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" width="25px" height="25px"> Python
+* <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" width="30px" height="30px"> C#
+* <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" width="25px" height="25px"> Java
+* <img src="https://brandslogos.com/wp-content/uploads/thumbs/mysql-logo-vector-1.svg" width="25px" height="25px"> MySQL
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1024px-Markdown-mark.svg.png" width="25px" height="25px"> Markdown
+* <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/flask_logo_icon_145276.png" width="25px" height="25px"> Flask
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width="25px" height="25px">React
+
+
+## Informacion de contacto
+* Correo electronico: enmnuelsosa63@gmail.com
+* telefono: +1(809)-672-0500 
+---
