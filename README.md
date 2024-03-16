@@ -1,9 +1,9 @@
 # Frontend Developer 🧑‍💻💻
 
-## Sobre mi 
+## Sobre mi ❤
 
-¡Hola! me llamo Emmanuel Sosa y soy un desarrollador frontend en la republica dominicana 🇩🇴, me apasiona tanto el desarrollo web
-como la programacion, soy una persona responsable y dedicada a su labor. Mi meta es satisfacer los deseos y necesidades del cliente
+¡Hola! me llamo Emmanuel Sosa y soy un desarrollador frontend en la República Dominicana 🇩🇴, me apasiona tanto el desarrollo web
+como la programación, soy una persona responsable y dedicada a su labor. Mi meta es satisfacer los deseos y necesidades del cliente
 de manera satisfactoria.
 
 ---
@@ -20,9 +20,10 @@ de manera satisfactoria.
 * <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1024px-Markdown-mark.svg.png" width="25px" height="25px"> Markdown
 * <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/flask_logo_icon_145276.png" width="25px" height="25px"> Flask
 * <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width="25px" height="25px">React
+* <img src="https://cdn.iconscout.com/icon/free/png-256/free-git-18-1175219.png" width="25px" height="25px"> Git
 
 
-## Informacion de contacto
+## Información de contacto 📲
 * Correo electronico: enmnuelsosa63@gmail.com
-* telefono: +1(809)-672-0500 
+* teléfono: +1(809)-672-0500 
 ---
